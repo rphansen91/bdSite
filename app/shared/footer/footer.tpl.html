@@ -1,0 +1,13 @@
+<div class="footer">
+	<div class="footerLogo" ng-click="goTo('/')"></div>
+	<div class="container">
+		<div class="footerLinks">
+			<p class="footerLink" ng-repeat="link in links" ng-click="goTo(link.path)" ng-bind="link.text"></p>
+			<div class="clear"></div>
+		</div>
+		<div class="socialLinks">
+			<div ng-repeat="social in socials" class="fa fa-2x socialLink" ng-class="social.type" ng-click="open(social.link)"></div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>

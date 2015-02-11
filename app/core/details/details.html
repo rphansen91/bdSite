@@ -1,0 +1,12 @@
+<div class="container">
+	<h1 class="sectionHeader">The Details</h1>
+	<h3 class="sectionSubHeader">Classifieds revenue for local media has plummeted for over a decade - in fact, the “classifieds - buy & sell” section doesn't exist any longer for most local media properties.</h3>
+
+	<div ng-repeat="point in points">
+		<div class="pointIcon"></div>
+		<h4 class="pointTitle" ng-bind="point.title"></h4>
+		<div ng-repeat="text in point.texts">
+			<p class="pointText" ng-bind="text"></p>
+		</div>
+	</div>
+</div>

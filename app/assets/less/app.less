@@ -1,0 +1,43 @@
+body {position:absolute;z-index: 1; height: 100%;width: 100%; margin: 0;overflow-y: scroll; overflow-x: hidden;}
+
+@media all and (min-width: 1200px) {
+	.container { width: 1170px; }
+}
+
+@media all and (min-width: 992px) {
+	.container { width: 970px; }
+}
+
+@media all and (min-width: 768px) {
+	.container { width: 750px; }
+}
+
+
+@import "shared/navbar.less";
+@import "shared/footer.less";
+@import "core/hero.less";
+@import "core/revenue.less";
+@import "core/welcome.less";
+@import "core/details.less";
+
+
+hr {width: 60%; margin: 50px; margin-left: 20%; border-top: 1px solid #d6d6d6;}
+
+.container {padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;}
+.centerImage {width: 50%;margin-top: 40px;margin-left: 25%;}
+.clear {clear: both;}
+
+.purpleText {color: rgb(138, 118, 181);}
+.darkText {color: #333333;}
+
+.headerFont {font-family: 'Raleway', sans-serif;font-weight: 100;}
+.subHeaderFont {font-family: 'Montserrat', sans-serif;font-weight: 200;}
+
+.whiteBkgd {background-color: #fff;}
+.greyBkgd {background-color: #f6f6f6;}
+
+.sectionHeader {.headerFont; .purpleText; text-align: center; margin: 0; padding-top: 30px; font-size: 40px;}
+.sectionSubHeader {.subHeaderFont; .darkText; text-align: center; margin: 0; padding-top: 30px; font-size: 22px;}
+
+.text-center {text-align: center;}
+

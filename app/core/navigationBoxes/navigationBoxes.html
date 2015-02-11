@@ -1,0 +1,9 @@
+<div class="navigationBoxesContainer">
+	<div class="navigationBox" ng-repeat="section in sections">
+		<h2 class="navigationBoxTitle" ng-bind="section.title"></h2>
+		<div class="navigationMailIcon"></div>
+		<div class="navigationDownIcon"></div>
+		<a class="touchEffect" href="#{{section.anchor}}" du-smooth-scroll></a>
+	</div>
+	<div class="clear"></div>
+</div>

@@ -1,0 +1,335 @@
+body {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+@media all and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media all and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media all and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+.navbar {
+  height: 65px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbarBelow {
+  height: 65px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.logo {
+  background: url(/assets/images/antengo_logo.png) no-repeat 15px center;
+  height: 100%;
+  background-size: 120px;
+}
+.getStartedButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #fff;
+  background-color: #8c77b6;
+  border-radius: 3px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.navigationBoxesContainer {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -100px;
+  z-index: 5;
+}
+.navigationBox {
+  position: relative;
+  float: left;
+  height: 220px;
+  width: 30%;
+  margin: 0 1.5%;
+  padding: 10px 20px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.navigationBoxTitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #8a76b5;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+.navigationMailIcon {
+  height: 80px;
+  background: url(/assets/images/mail_icon.png) no-repeat center;
+  background-size: contain;
+  margin: 10px;
+}
+.navigationDownIcon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: url(/assets/images/down_icon.png) no-repeat center;
+  background-size: contain;
+  margin: 10px;
+}
+.navigationSectionsContainer {
+  position: absolute;
+  width: 60%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.navigationSection {
+  position: relative;
+  float: left;
+  width: 30%;
+  margin: 0 1.5%;
+}
+.mailIconLeft {
+  height: 60px;
+  line-height: 60px;
+  background: url(/assets/images/mail_icon.png) no-repeat center left;
+  background-size: 40px;
+  padding-left: 45px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #8a76b5;
+}
+.touchEffect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #8c77b6;
+}
+.footerLogo {
+  background: url(/assets/images/antengo_logo.png) no-repeat center top;
+  background-size: contain;
+  height: 40%;
+}
+.footerLinks {
+  width: 100%;
+  text-align: center;
+}
+.footerLink {
+  float: left;
+  padding: 0 15px;
+  color: #ccc;
+}
+.socialLinks {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 20%;
+  margin: auto;
+}
+.socialLink {
+  color: #ccc;
+  width: 33%;
+  text-align: center;
+}
+.heroText {
+  text-align: center;
+  width: 100%;
+  padding-top: 100px;
+}
+.heroTitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #8a76b5;
+  font-size: 50px;
+}
+.heroSubTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #333333;
+  font-size: 20px;
+}
+.parallaxEffect {
+  position: relative;
+  z-index: 1;
+  height: 400px;
+  overflow: hidden;
+}
+.buildings {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: auto;
+  width: 55%;
+  max-width: 100%;
+}
+.grassLeft {
+  position: absolute;
+  top: 100px;
+  left: -25%;
+  z-index: 2;
+  max-width: 100%;
+}
+.grassRight {
+  position: absolute;
+  top: 100px;
+  right: -25%;
+  z-index: 3;
+  max-width: 100%;
+}
+.marketing {
+  padding-bottom: 2000px;
+}
+.imageSubtext {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 0;
+  padding: 25px;
+}
+.subPoint {
+  width: 60%;
+  margin-left: 20%;
+}
+.subPointTitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #8a76b5;
+  font-size: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+.subPointText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #333333;
+  font-size: 16px;
+  margin-top: 0;
+  text-align: center;
+}
+.pointTitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #8a76b5;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.pointText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #333333;
+  font-size: 16px;
+  margin-top: 0;
+}
+.pointIcon {
+  padding-left: 25px;
+}
+.pointTitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #8a76b5;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.pointText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #333333;
+  font-size: 16px;
+  margin-top: 0;
+}
+.pointIcon {
+  padding-left: 25px;
+}
+hr {
+  width: 60%;
+  margin: 50px;
+  margin-left: 20%;
+  border-top: 1px solid #d6d6d6;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.centerImage {
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 25%;
+}
+.clear {
+  clear: both;
+}
+.purpleText {
+  color: #8a76b5;
+}
+.darkText {
+  color: #333333;
+}
+.headerFont {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+.subHeaderFont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+.whiteBkgd {
+  background-color: #fff;
+}
+.greyBkgd {
+  background-color: #f6f6f6;
+}
+.sectionHeader {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #8a76b5;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  font-size: 40px;
+}
+.sectionSubHeader {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #333333;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  font-size: 22px;
+}
+.text-center {
+  text-align: center;
+}
