@@ -23,24 +23,3 @@ splashPageApp.directive('navigationSections', ['navigationService', function (na
 		}
 	}
 }])
-
-splashPageApp.factory('navigationService', [function () {
-	var factory = {}
-
-	factory.sections = [
-		{
-			title: "Title One",
-			anchor: "revenue"
-		},
-		{
-			title: "Title Two",
-			anchor: "welcome"
-		},
-		{
-			title: "Title Three",
-			anchor: "details"
-		}
-	]
-
-	return factory;
-}])
